@@ -1,5 +1,5 @@
 name: gestureappflutter
-description: Dado virtuale controllato con gesture shake.
+description: Controlla il volume di sistema inclinando il telefono a destra o sinistra.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_test:
-    sdk: flutter
+  sensors_plus: ^4.0.2
+  volume_controller: ^2.0.7
 
 flutter:
   uses-material-design: true
